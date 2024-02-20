@@ -33,9 +33,6 @@ void Student::PrintStudent() const
 	cout << "Patronymic: " << patronymic << "\n";
 	cout << "Adress: " << adress << "\n";
 	cout << "Phone number: " << phoneNumber << "\n";
-	PrintExam();
-	PrintHW();
-	PrintPractic();
 }
 
 void Student::SetSurname(string surname)
